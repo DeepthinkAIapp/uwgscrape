@@ -31,7 +31,7 @@ body {
   font-family: 'Inter', Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-primary);
-  background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 15%, #3b82f6 30%, #60a5fa 50%, #93c5fd 70%, #dbeafe 85%, #ffffff 100%);
+  background: linear-gradient(180deg, #3b82f6 0%, #60a5fa 20%, #93c5fd 40%, #dbeafe 65%, #f0f9ff 85%, #ffffff 100%);
   min-height: 100vh;
 }
 
