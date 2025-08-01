@@ -50,3 +50,4 @@ barcodetool/mobile-app/
 # Exclude large data files
 *.csv
 *.log 
+.vercel
