@@ -27,10 +27,7 @@
       "source": "/theme.css",
       "destination": "/blog/theme.css"
     },
-    {
-      "source": "/guide-building-first-water-garden-utah.pdf",
-      "destination": "/blog/guide-building-first-water-garden-utah.pdf"
-    },
+
     {
       "source": "/guide-content.html",
       "destination": "/blog/guide-content.html"

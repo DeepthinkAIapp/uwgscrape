@@ -1536,6 +1536,135 @@ main.blog-post .container {
   border-color: var(--accent);
 }
 
+/* Sidebar Tags */
+.sidebar-section .tags-grid {
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  max-width: none;
+  margin: 0;
+}
+.sidebar-section .tag-item {
+  font-size: 0.85rem;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+/* Highlight Features for Blog Posts and Guides */
+.highlight-box {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.highlight-box::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+}
+
+/* Warning/Error Highlight Box */
+.highlight-warning {
+  background: #fee2e2;
+  border-left: 4px solid #dc2626;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.highlight-warning strong {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* Pro Tip Highlight Box */
+.highlight-tip {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.highlight-tip strong {
+  color: #d97706;
+  font-weight: 600;
+}
+
+/* Info Highlight Box */
+.highlight-info {
+  background: #f0f9ff;
+  border-left: 4px solid #3b82f6;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.highlight-info strong {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+/* Success Highlight Box */
+.highlight-success {
+  background: #f0fdf4;
+  border-left: 4px solid #16a34a;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.highlight-success strong {
+  color: #15803d;
+  font-weight: 600;
+}
+
+/* Common Mistake Highlight Box */
+.highlight-mistake {
+  background: #dc2626;
+  color: white;
+  border-left: 4px solid #dc2626;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+.highlight-mistake strong {
+  color: white;
+  font-weight: 600;
+}
+
+/* Utah Water Gardens Pro Tip */
+.highlight-uwg-tip {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+.highlight-uwg-tip strong {
+  color: #d97706;
+  font-weight: 600;
+}
+
+/* Blog Post Content Enhancements */
+.blog-post .highlight-box,
+.guide-content .highlight-box {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.blog-post .highlight-box p,
+.guide-content .highlight-box p {
+  margin: 0 0 10px 0;
+}
+
+.blog-post .highlight-box p:last-child,
+.guide-content .highlight-box p:last-child {
+  margin-bottom: 0;
+}
+
 /* Mobile Responsive for Blog Layout */
 @media (max-width: 768px) {
   .blog-layout .container {
@@ -1558,5 +1687,61 @@ main.blog-post .container {
   
   .tags-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  
+  .sidebar-section .tags-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+
+/* Article Tags Styling */
+.article-tags {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.article-tags h4 {
+  margin: 0 0 1rem 0;
+  color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-link {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tag-link:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design for tags */
+@media (max-width: 768px) {
+  .tags-list {
+    gap: 0.3rem;
+  }
+  
+  .tag-link {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
   }
 }
