@@ -16,8 +16,84 @@
       "destination": "/blog/index.html"
     },
     {
-      "source": "/blog/(.*)",
-      "destination": "/blog/$1"
+      "source": "/pond-liners-utah-guide.html",
+      "destination": "/blog/pond-liners-utah-guide.html"
+    },
+    {
+      "source": "/pond-design-guide.html",
+      "destination": "/blog/pond-design-guide.html"
+    },
+    {
+      "source": "/aquatic-plants-guide.html",
+      "destination": "/blog/aquatic-plants-guide.html"
+    },
+    {
+      "source": "/clay-soil-ponds-utah-guide.html",
+      "destination": "/blog/clay-soil-ponds-utah-guide.html"
+    },
+    {
+      "source": "/diy-pond-cost-utah.html",
+      "destination": "/blog/diy-pond-cost-utah.html"
+    },
+    {
+      "source": "/natural-vs-liner-ponds-utah-guide.html",
+      "destination": "/blog/natural-vs-liner-ponds-utah-guide.html"
+    },
+    {
+      "source": "/pond-depth-utah-guide.html",
+      "destination": "/blog/pond-depth-utah-guide.html"
+    },
+    {
+      "source": "/small-backyard-pond-ideas-utah.html",
+      "destination": "/blog/small-backyard-pond-ideas-utah.html"
+    },
+    {
+      "source": "/utah-climate-guide.html",
+      "destination": "/blog/utah-climate-guide.html"
+    },
+    {
+      "source": "/utah-pond-building-permits-guide.html",
+      "destination": "/blog/utah-pond-building-permits-guide.html"
+    },
+    {
+      "source": "/water-features-guide.html",
+      "destination": "/blog/water-features-guide.html"
+    },
+    {
+      "source": "/fish-care-guide.html",
+      "destination": "/blog/fish-care-guide.html"
+    },
+    {
+      "source": "/how-to-build-pond-utah-guide.html",
+      "destination": "/blog/how-to-build-pond-utah-guide.html"
+    },
+    {
+      "source": "/pond-maintenance-guide.html",
+      "destination": "/blog/pond-maintenance-guide.html"
+    },
+    {
+      "source": "/complete-seo-strategy-guide-2025.html",
+      "destination": "/blog/complete-seo-strategy-guide-2025.html"
+    },
+    {
+      "source": "/content-marketing-seo-success-2025.html",
+      "destination": "/blog/content-marketing-seo-success-2025.html"
+    },
+    {
+      "source": "/technical-seo-checklist-2025.html",
+      "destination": "/blog/technical-seo-checklist-2025.html"
+    },
+    {
+      "source": "/local-seo-strategies-small-businesses-2025.html",
+      "destination": "/blog/local-seo-strategies-small-businesses-2025.html"
+    },
+    {
+      "source": "/ai-powered-seo-strategies-2025.html",
+      "destination": "/blog/ai-powered-seo-strategies-2025.html"
+    },
+    {
+      "source": "/guide-content.html",
+      "destination": "/blog/guide-content.html"
     },
     {
       "source": "/images/(.*)",
@@ -32,8 +108,16 @@
       "destination": "/blog/theme.css"
     },
     {
-      "source": "/guide-content.html",
-      "destination": "/blog/guide-content.html"
+      "source": "/manifest.json",
+      "destination": "/blog/manifest.json"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/blog/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/blog/robots.txt"
     }
   ],
   "public": true,
