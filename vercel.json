@@ -12,6 +12,10 @@
       "destination": "/blog/index.html"
     },
     {
+      "source": "/index.html",
+      "destination": "/blog/index.html"
+    },
+    {
       "source": "/blog/(.*)",
       "destination": "/blog/$1"
     },
@@ -27,13 +31,11 @@
       "source": "/theme.css",
       "destination": "/blog/theme.css"
     },
-
     {
       "source": "/guide-content.html",
       "destination": "/blog/guide-content.html"
     }
   ],
-  "outputDirectory": "blog",
   "public": true,
   "headers": [
     {
