@@ -6,26 +6,26 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/blog/index.html"
+      "source": "/",
+      "destination": "/blog/index.html"
     },
     {
-      "src": "/blog/(.*)",
-      "dest": "/blog/$1"
+      "source": "/blog/(.*)",
+      "destination": "/blog/$1"
     },
     {
-      "src": "/images/(.*)",
-      "dest": "/blog/images/$1"
+      "source": "/images/(.*)",
+      "destination": "/blog/images/$1"
     },
     {
-      "src": "/styles.css",
-      "dest": "/blog/styles.css"
+      "source": "/styles.css",
+      "destination": "/blog/styles.css"
     },
     {
-      "src": "/theme.css",
-      "dest": "/blog/theme.css"
+      "source": "/theme.css",
+      "destination": "/blog/theme.css"
     }
   ],
   "outputDirectory": "blog",
